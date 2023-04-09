@@ -408,3 +408,115 @@
     line-height: 32px;
     font-weight: 400;
 }
+/* Busines Hours section */
+.hours-section__container {
+    max-width: 1400px;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+.hours-section__backgraund {
+    max-width: 1150px;
+    height: 750px;
+    margin: 0 auto;
+    border-radius: 150px;
+    background-image: url("./assets/business-hours.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hours-section__hours h2 {
+    color: white;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 15px;
+}
+
+.hours-section__hours h3 {
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.hours-section__lunch-dinner {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.hours-section__lunch-dinner p {
+    color: #fbfafa;
+    text-align: center;
+
+    line-height: 200%;
+}
+
+.hours-section__lunch-dinner p:last-child {
+    text-align: right;
+}
+
+.hours-section__hours .btn-large-orange {
+    margin-right: 15px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #3d3429;
+}
+
+.footer__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer__text {
+    color: #ecf0f1;
+    font-size: 16px;
+    line-height: 32px;
+    display: block;
+}
+
+.footer__brand {
+    width: 30%;
+}
+
+.text__center {
+    text-align: center;
+}
+.footer__heading {
+    color: #ff8a00;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.footer__social-icons {
+    margin-top: 40px;
+}
+.footer__social-icons img:first-child {
+    margin-right: 30px;
+}
+.footer__social-icons img:nth-child(2) {
+    margin-right: 30px;
+}
+
+.footer__logo {
+    margin-bottom: 25px;
+}
+
+.footer__contact {
+    width: 30%;
+}
+.footer__contact p {
+    line-height: 24px;
+}
