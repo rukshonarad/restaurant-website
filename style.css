@@ -81,8 +81,8 @@
     display: block;
     width: max-content;
     margin-bottom: 24px;
-    background-color: #ff8a0033;
-    color: rgb(255, 138, 0);
+    background-color: rgb(255, 138, 0);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 123px;
     padding: 5px 20px;
@@ -108,13 +108,11 @@
 /* Welcome Section */
 
 #welcome-section {
-    background-color: #3fc66e1a;
+    background-color: rgba(63, 198, 110, 0.102);
 }
-
 .welcome-section__container {
     max-width: 1440px;
     margin: 0 auto;
-
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -194,9 +192,8 @@
 
 .card {
     width: calc((100% - 80px) / 3);
-
     padding: 35px 37px;
-    background-color: #d0ccc733;
+    background-color: rgb(208, 204, 199, 51);
     border-radius: 70px;
 }
 
@@ -260,7 +257,7 @@
 .reservation-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: #3d3429;
+    color: rgb(61, 52, 41);
     margin-bottom: 50px;
 }
 
