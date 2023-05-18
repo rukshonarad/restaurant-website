@@ -1,8 +1,6 @@
 /* Header */
 
 .navigation {
-    max-width: 1440px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,13 +48,7 @@
 /* Hero Section */
 
 .hero-section__container {
-    max-width: 1440px;
-    /* padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px; */
     padding: 80px;
-    margin: 0 auto;
 
     display: flex;
     align-items: center;
@@ -112,9 +104,6 @@
 }
 
 .welcome-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -153,8 +142,6 @@
 /* Menu Section */
 
 .menu-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 
@@ -238,9 +225,6 @@
     padding-right: 80px;
     padding-top: 80px;
     padding-bottom: 80px;
-    max-width: 1440px;
-    margin: 0 auto;
-
     display: flex;
     align-items: center;
 }
@@ -278,10 +262,7 @@
 #chefs-section {
     text-align: center;
 }
-
 .chefs-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 
@@ -356,8 +337,6 @@
 }
 
 .testimonials-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 
@@ -410,9 +389,7 @@
 }
 /* Busines Hours section */
 .hours-section__container {
-    max-width: 1400px;
     padding: 80px;
-    margin: 0 auto;
 }
 
 .hours-section__backgraund {
@@ -469,8 +446,6 @@
 }
 
 .footer__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 
