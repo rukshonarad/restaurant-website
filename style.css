@@ -9,19 +9,40 @@
     src: url(./fonts/Poppins-SemiBold.ttf) format("truetype");
     font-weight: 600;
 }
-.navigation {
-    display: flex;
-    justify-content: space-between;
+.navigation,
+.navigation__links,
+.navigation__actions,
+.navigation__actions figure,
+.hero-section__container,
+.welcome-section__container,
+.card__footer,
+.reservation-section__container {
     align-items: center;
+}
+.navigation {
+    justify-content: space-between;
     height: 100%;
     padding-left: 100px;
     padding-right: 100px;
 }
-
-.navigation__links {
+.navigation,
+.navigation__links,
+.navigation__actions,
+.navigation__actions figure,
+.hero-section__container,
+.welcome-section__container,
+.menu-section__filters,
+.menu-section__meals,
+.card__footer,
+.reservation-section__container,
+.chefs-section__chefs,
+.testimonials-section__testimonials,
+.hours-section__backgraund,
+.footer__content {
     display: flex;
+}
+.navigation__links {
     gap: 45px;
-    align-items: center;
 }
 
 .navigation__links li a {
@@ -31,12 +52,6 @@
 
 #navigation__link {
     color: var(--orange-color);
-}
-
-.navigation__actions {
-    display: flex;
-    align-items: center;
-    /* gap: 25px; */
 }
 
 .navigation__actions img {
@@ -49,19 +64,18 @@
     width: 50px;
     background-color: rgb(236, 240, 241);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
     justify-content: center;
     margin-right: 25px;
 }
 /* Hero Section */
-
+.hero-section__container,
+.menu-section__meals,
+.chefs-section__chefs,
+.testimonials-section__testimonials {
+    gap: 40px;
+}
 .hero-section__container {
     padding: 80px;
-
-    display: flex;
-    align-items: center;
-    gap: 40px;
 }
 
 .hero-section__left {
@@ -72,9 +86,14 @@
     width: 50%;
     height: max-content;
 }
-
-.hero-section__img {
+.hero-section__img,
+.welcome-section__left img,
+.card__img,
+.reservation-section__left img,
+.chefs-section__chef img {
     width: 100%;
+}
+.hero-section__img {
     height: auto;
 }
 
@@ -113,8 +132,6 @@
 }
 
 .welcome-section__container {
-    display: flex;
-    align-items: center;
     padding-top: 80px;
     padding-right: 80px;
 }
@@ -123,30 +140,37 @@
     width: 55%;
 }
 .welcome-section__left img {
-    width: 100%;
     height: auto;
 }
 
 .welcome-section__right {
     width: 45%;
 }
-
-.welcome-section__right h2 {
+.welcome-section__right h2,
+.menu-section__container h2,
+.reservation-section__right h2,
+.chefs-section__container h2,
+.testimonials-section__container h2,
+.hours-section__hours h2 {
     font-size: 60px;
     line-height: 70px;
-    color: var(--brown-color);
     margin-bottom: 50px;
+}
+.welcome-section__right h2 {
+    color: var(--brown-color);
 }
 
 .welcome-section__right h2 span {
     color: var(--orange-color);
 }
-
-.welcome-section__right p {
-    color: var(--light-brown-color);
+.welcome-section__right p,
+.reservation-section__right p {
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
+}
+.welcome-section__right p {
+    color: var(--light-brown-color);
 }
 /* Menu Section */
 
@@ -156,22 +180,16 @@
 
 .menu-section__container h2 {
     text-align: center;
-    font-size: 60px;
-    line-height: 70px;
     color: var(--brown-color);
-    margin-bottom: 50px;
 }
 
 .menu-section__filters {
-    display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
 .menu-section__meals {
-    display: flex;
     flex-wrap: wrap;
-    gap: 40px;
 }
 
 .menu-section__stars {
@@ -197,7 +215,6 @@
 }
 
 .card__img {
-    width: 100%;
     height: auto;
     margin-bottom: 24px;
 }
@@ -220,8 +237,6 @@
 }
 
 .card__footer {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 /*Reservation Section*/
@@ -234,8 +249,6 @@
     padding-right: 80px;
     padding-top: 80px;
     padding-bottom: 80px;
-    display: flex;
-    align-items: center;
 }
 
 .reservation-section__left {
@@ -243,7 +256,6 @@
 }
 
 .reservation-section__left img {
-    width: 100%;
     height: auto;
 }
 
@@ -251,10 +263,7 @@
     width: 45%;
 }
 .reservation-section__right h2 {
-    font-size: 60px;
-    line-height: 70px;
     color: var(--medium-brown-color);
-    margin-bottom: 50px;
 }
 
 .reservation-section__right h2 span {
@@ -263,9 +272,6 @@
 
 .reservation-section__right p {
     color: var(--light-brown-color);
-    font-size: 20px;
-    line-height: 40px;
-    margin-bottom: 40px;
 }
 /* Chefs Section*/
 #chefs-section {
@@ -276,10 +282,7 @@
 }
 
 .chefs-section__container h2 {
-    font-size: 60px;
-    line-height: 70px;
     color: var(--brown-color);
-    margin-bottom: 50px;
 }
 
 .chefs-section__container h2 span {
@@ -287,8 +290,6 @@
 }
 
 .chefs-section__chefs {
-    display: flex;
-    gap: 40px;
     margin-bottom: 80px;
 }
 
@@ -302,7 +303,6 @@
 }
 
 .chefs-section__chef img {
-    width: 100%;
     height: auto;
     border-radius: 50px;
     margin-bottom: 40px;
@@ -350,16 +350,12 @@
 }
 
 .testimonials-section__container h2 {
-    font-size: 60px;
-    line-height: 70px;
     color: var(--brown-color);
     margin-bottom: 100px;
     text-align: center;
 }
 
 .testimonials-section__testimonials {
-    display: flex;
-    gap: 40px;
     justify-content: space-between;
 }
 
@@ -407,7 +403,7 @@
     margin: 0 auto;
     border-radius: 150px;
     background-image: url("./assets/business-hours.png");
-    display: flex;
+
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -415,8 +411,7 @@
 
 .hours-section__hours h2 {
     color: rgb(255, 255, 255);
-    font-size: 60px;
-    line-height: 70px;
+
     margin-bottom: 15px;
 }
 
@@ -459,7 +454,6 @@
 }
 
 .footer__content {
-    display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
 }
